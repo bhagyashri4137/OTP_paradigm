@@ -1,0 +1,44 @@
+/* OTP style */
+.OTP-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.otpForm{
+    border: 2px solid rgb(36, 42, 49);
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(18, 18, 63);
+}
+
+.otpForm h1{
+    color: white;
+    font-weight: 1.5rem;
+}
+
+.otpForm input{
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.otpForm button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: blue;
+    
+}
+ 
+
+
+/* Login style */
+/* Registration page style */

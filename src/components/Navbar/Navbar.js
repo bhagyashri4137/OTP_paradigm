@@ -26,7 +26,7 @@ const Navbar = () => {
                             
                            
                             <li><Link className="nav-link" to="/Success">Success</Link></li>
-                            
+                            <li><Link className="nav-link" to="/Success">OTP verification</Link></li>
   
                         </ul>
                     </div>
