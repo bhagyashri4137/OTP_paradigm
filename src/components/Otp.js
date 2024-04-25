@@ -1,4 +1,4 @@
-import '../style/style.css'
+import "../assets/css/style.css"
 import React, { useState } from 'react';
 var otp1 = "";
 function Otp() {
@@ -15,7 +15,7 @@ function Otp() {
 
     const verifyOTP=()=>{
         let otp2 = document.getElementById("otp_input").value;
-        if(otp1 == otp2)
+        if(otp1 === otp2)
         {
             alert("Your Email has been verified successfully");  
         }

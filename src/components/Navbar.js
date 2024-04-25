@@ -1,4 +1,4 @@
-import './Navbar.css'
+import "../assets/css/style.css"
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -14,7 +14,7 @@ const Navbar = () => {
                    <div className="collapse navbar-collapse " id="collapsibleNavbar">
                     <div className="navbar-nav ms-auto">
                         <ul>
-                            
+                        <li><Link className="nav-link" to="/ResetPassword">Reset Password</Link></li>
                             <li><Link className="nav-link active" area-current="page" to="/Login">Login</Link></li>
                             
                             <li><Link className="nav-link" to="/Registration">Registration</Link></li>

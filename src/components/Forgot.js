@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import './Forgot.css'
+import { Link } from "react-router-dom"
+import "../assets/css/style.css"
 import React from 'react'
 
 function Forgot() {

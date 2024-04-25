@@ -1,0 +1,562 @@
+/* Reset Password style */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  background-color: black;
+}
+
+.container{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.horizontal-container {
+  background-color:rgba(100, 97, 97, 0.998);
+  width: 100%;   
+
+}     
+
+  .horizontal-form-box {
+    height: 60vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+    
+
+   .horizontal-info-container .horizontal-heading {
+        color: white;
+        font-size: 2rem; 
+        font-weight: bold; 
+        text-transform: capitalize;
+      }
+
+      p{
+      color: white;
+      font-weight: 1rem;
+      font-weight:bold;
+        margin: 1rem;
+      }
+    
+  
+    .form1 button {
+      color: black;
+      font-size: 0.8rem;
+       border-radius: 0.5rem;
+       margin-bottom: 3rem;
+       padding: 0.5rem;
+      text-transform: capitalize;
+      background-color: white;
+      font-weight: bold;
+      border: none;
+      width: 9rem;
+      }
+
+      button:hover{
+          color: white;
+          background-color: blue;
+      }
+
+      .form1{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+      }
+
+      
+
+      /* form > div{
+          border: 2px solid gold;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          
+      } */
+
+       form div label{ 
+        color: white;
+        font-weight: normal;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        
+      }
+
+      .horizontal-form input, label{
+          text-align: start;
+          display: block;
+      } 
+      .in-label{
+          margin: 1rem;
+      }
+
+      @media (min-width:768px) and (max-width:1024px) {
+
+          .horizontal-container {
+              height: 100vh;
+              background-color:rgba(100, 97, 97, 0.998);
+              width: 100vw;  
+          
+          } 
+
+          .horizontal-info-container .horizontal-heading {
+              color: white;
+              font-size: 5rem; 
+              font-weight: bold; 
+              text-transform: capitalize;
+            }
+      
+            .horizontal-info-container  p{
+            color: white;
+            font-size: 2.5rem;
+            font-weight:normal;
+              margin: 1rem;
+            }
+
+            .in-label{
+              margin: 3rem;
+              font-size: 1rem;
+          }
+
+          .horizontal-container button {
+              padding: 40px;
+              font-size: 2.5rem;
+             }
+     
+          .in-label label{
+              font-size: 2.5rem;
+          }
+
+          .in-label input{
+             padding: 1.5rem;
+          }
+              
+
+          
+      }
+
+      
+    
+  
+
+
+/* OTP style */
+.OTP-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.otpForm{
+    border: 2px solid rgb(36, 42, 49);
+    height: 50vh;
+    width: 50%;
+    background-color: grey
+}
+
+.otpForm h1{
+    color: white;
+    font-weight: 1.5rem;
+}
+
+.otpForm input{
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.otpForm button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: blue;
+    
+}
+
+/* Nvbar style */
+
+.fullpage{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-modern-blue-networking-tech-wallpaper-with-golden-hexagons-in-3d-render-image_3618505.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header{
+    
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;    
+}
+   
+.navbar{
+    background-color: rgba(66, 65, 65, 0.053);
+    height: 5rem;
+    display: flex;
+    justify-content:space-between;    
+}
+
+.navbar ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+
+}
+.navbar li{
+    padding: 10px;
+}
+
+.navbar Link{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar Link:hover{color:blue     rgb(222, 58, 222);}
+
+
+/* Login style */
+.login-container{
+    height: 100vh;
+    width: 100%;
+     display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-modern-blue-networking-tech-wallpaper-with-golden-hexagons-in-3d-render-image_3618505.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+   }
+   .login-container form{
+     height: 70vh;
+      width: 70%;
+      /* background-color: rgb(20, 34, 62); */
+      background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(7, 5, 33));
+      border-radius: 15px;
+      border: 3px solid rgb(27, 39, 67);
+      padding: 40px;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 8px 16px rgba(32, 23, 62, 0.2);
+      
+    }
+  
+    .box label{
+      color: white;
+    }
+    
+    .login-container h2 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .login-container form {
+      display: flex;
+      flex-direction: column;
+    }
+   
+    .login-container input {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .login-container button {
+      padding: 10px;
+      background-color: #15a8de;
+      color:white;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    
+    }
+    
+    .login-container button:hover {
+      background-color: #3b7ae0;
+    }
+  
+    .login-container p,Link{
+      color: azure;
+    }
+  
+/* Registration page style */
+.register-form{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-modern-blue-networking-tech-wallpaper-with-golden-hexagons-in-3d-render-image_3618505.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  form{
+    border: 2px solid rgb(99, 114, 124);
+    height: 90vh;
+    width: 50%;
+    background-color: linear-gradient(to right, rgba(56, 82, 85, 0.727), rgba(13, 42, 77, 0.83));
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+  }
+  
+  form h1{
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  form input{
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(6, 6, 7)
+  }
+  
+  form button{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 7rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(14, 14, 237);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form p,a{
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media(max-width:478px){
+    .register-form{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    
+    form{
+      border: 2px solid rgb(61, 68, 75);
+      height: 75vh;
+      width: 80%;
+      background-color: linear-gradient(to right, rgba(140, 231, 241, 0.727), rgba(15, 105, 143, 0.83));
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+      text-align: center;
+    }
+}
+
+/* Forgot Page style */
+.forgot-page{
+    height: 100vh;
+    width: 100%;
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .forgot-page .form{
+    border: 3px solid rgb(67, 73, 86);
+    height: 85vh;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(152, 138, 138, 0), rgb(17, 31, 49));
+  }
+  
+  .form img{
+    margin-top: 5px;
+    height: 6rem;
+    width: auto;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgb(178, 238, 238);
+  }
+  
+  .form button{
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .form p{
+    font-size: 1rem;
+  }
+  
+  button:hover{
+    background-color: darkblue;
+  }
+
+  /* Success page style */
+  .success-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;  
+    margin-top: 50px; 
+  }
+  
+  
+  
+  .success-div{
+    height: 70vh;
+    width: 80%;
+    border: 3px solid rgb(149, 149, 174);
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(7, 5, 33));
+    border-radius: 1rem;
+    margin: 10px;
+    }
+  
+  .success-div .checkmark{
+    height: 2rem;
+    width: auto;
+  }
+  
+  .success-div h2{
+    color: white;
+   font-weight: bold;
+    font-size: 2rem;
+    
+  }
+  
+  .success-div img{
+    height: 15vh;
+    width: auto;
+    margin: 10px;
+  }
+  .success-div p{
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .success-div button{
+    width: 40%;
+    background-color: #eff0f3;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .success-div button:hover{
+    background-color: blue;
+  }
+  
+  .info-div form{
+  color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 15vh;
+      width: 79%;
+      background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(7, 5, 33));
+      border: 3px solid rgb(149, 149, 174);
+   }
+  .table th,tr,td { 
+    border: 1px solid white;
+  }
+
+
+  /* Error Page style */
+  .error-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .error-div{
+    height: 70vh;
+    width: 90%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(7, 5, 33));
+    border-radius: 10px;
+    border: 3px solid rgb(118, 116, 116);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+  }
+  
+  .error-div img{
+    margin: 10px;
+    height: 5rem;
+    width: auto;
+  }
+  
+  .error-div Link{
+  
+    color: rgb(195, 217, 237);
+    font-size: 1.3rem;
+    font-weight: bold;
+   
+    }
+    
