@@ -106,56 +106,14 @@ body{
           margin: 1rem;
       }
 
-      @media (min-width:768px) and (max-width:1024px) {
+      @media (max-width:480px){
 
-          .horizontal-container {
-              height: 100vh;
-              background-color:rgba(100, 97, 97, 0.998);
-              width: 100vw;  
-          
-          } 
-
-          .horizontal-info-container .horizontal-heading {
-              color: white;
-              font-size: 5rem; 
-              font-weight: bold; 
-              text-transform: capitalize;
-            }
+        .horizontal-form-box {
+          height: 70vh;}
       
-            .horizontal-info-container  p{
-            color: white;
-            font-size: 2.5rem;
-            font-weight:normal;
-              margin: 1rem;
-            }
-
-            .in-label{
-              margin: 3rem;
-              font-size: 1rem;
-          }
-
-          .horizontal-container button {
-              padding: 40px;
-              font-size: 2.5rem;
-             }
-     
-          .in-label label{
-              font-size: 2.5rem;
-          }
-
-          .in-label input{
-             padding: 1.5rem;
-          }
-              
-
-          
       }
 
-      
-    
-  
-
-
+ 
 /* OTP style */
 .OTP-container{
     height: 100vh;
@@ -560,3 +518,21 @@ button:hover{
    
     }
     
+  
+@media (max-width:480px){
+
+  .horizontal-form-box {
+    height: 70vh;}
+
+}
+
+@media (min-width:481px) and (max-width:768px){
+  
+}
+@media (min-width:769px) and (max-width:998px){
+  
+}
+@media (min-width:999px) and (max-width:1180px){
+  
+}
+
